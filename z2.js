@@ -7,4 +7,6 @@
 
 const strs = ["flower","flow","flight"]
 
+function pronalaziZajednickiPrefiks(e,i,arr){ 
 
+}
