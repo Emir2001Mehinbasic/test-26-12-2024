@@ -12,7 +12,6 @@ const prosjekNiza = niz.reduce(prosjek)/niz.length;
 function prosjek(acc ,e  ){
    return (acc + e) 
 }
-// console.log(prosjekNiza);
 
 const filtriraniNiz = niz.filter(filtrirajNiz);
 

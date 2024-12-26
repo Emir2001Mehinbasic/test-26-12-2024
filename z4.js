@@ -9,7 +9,10 @@
 // Objašnjenje: Posljednja riječ je "World" čija je dužina 5.
 
 const str = "Hello World";
-
-function countaString(){
-    
+const str2 = " fly me to the moon   ";
+function countaString(e) {
+  const counter = e.trim().split(" "); 
+  return counter[counter.length - 1].length; 
 }
+const noviString = countaString(str2);
+console.log(noviString);

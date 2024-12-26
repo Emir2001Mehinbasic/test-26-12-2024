@@ -11,7 +11,7 @@ const separator = "-";
 const nekiNiz = ["Sings","like","Thunder"]
 const separator = "-";
 
-const spojeniElementi = spojiElementeNiza(nekiNiz, separator);
+const spojeniElementi = spojiElementeNiza(nekiNriz, separator);
 
 function spojiElementeNiza(niz, separator) { 
     return niz.join(separator);

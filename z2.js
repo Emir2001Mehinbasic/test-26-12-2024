@@ -7,7 +7,7 @@
 
 const strs = ["flower","flow","flight"]
 
-function pronalaziZajednickiPrefiks(e,i,arr)
-    if (arr[i] = e.charAt(0).toLowerCase()){
+function pronalaziZajednickiPrefiks(e,i,arr){ 
+    if (arr[i] = e.charAt(0).toLowerCase())
        return arr[i]
-    }
+}
