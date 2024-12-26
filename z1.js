@@ -16,5 +16,9 @@ function vracaTarget(niz,target){
      
 }
 function nesto (e,i,arr){
-    arr[i]
+  return  arr[i]
 }
+
+const nekot = nums.forEach(nesto)
+
+console.log(nekot);
